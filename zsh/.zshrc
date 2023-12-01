@@ -1,5 +1,6 @@
-
 fpath=($ZDOTDIR/external $fpath)
+
+export USERNAME=$LOGNAME
 
 # +------------+
 # | NAVIGATION |
@@ -41,7 +42,7 @@ source "$XDG_CONFIG_HOME/zsh/aliases"
 # | SCRIPTS |
 # +---------+
 
-source $DOTFILES/zsh/scripts.sh
+source "$DOTFILES/zsh/scripts.sh"
 
 # +--------+
 # | PROMPT |
@@ -113,7 +114,7 @@ eval "$(atuin init zsh --disable-ctrl-r)"                # call atuin
 # | nnn |
 # +-----+
 
-export NNN_TERMINAL=$TERM
+export NNN_TERMINAL="xterm-256color"
 export NNN_PLUG='c:cdpath;d:fzcd;f:fzopen;g:gutenread;i:imgview;m:cmusq;n:nuke;p:preview-tui;z:autojump'
 export NNN_FIFO="$PREFIX/tmp/nnn.fifo"
 export NNN_TMPFILE="$PREFIX/tmp/.lastd"

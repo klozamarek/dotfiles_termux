@@ -1,3 +1,0 @@
-source "$XDG_CONFIG_HOME/zsh/aliases"
-setopt AUTO_CD                              # go to folder path without using cd
-setopt AUTO_PUSHD                           # push the old dir onto the stack on cd.
