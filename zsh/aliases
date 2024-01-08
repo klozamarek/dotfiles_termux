@@ -144,3 +144,17 @@ alias work="$HOME/workspace"
 alias doc="$HOME/Documents"
 alias dow="$HOME/Downloads"
 alias dot="$HOME/.dotfiles"
+
+# +-----+
+# | oil |
+# +-----+
+alias os="oil"
+# +--------------+
+# | transmission |
+# +-------------+
+alias tsm="transmission-remote"
+alias tsd="transmission-daemon"
+# +------+
+# | buku |
+# +------+
+alias b='buku --suggest'
